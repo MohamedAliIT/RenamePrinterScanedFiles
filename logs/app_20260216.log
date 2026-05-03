@@ -1,0 +1,140 @@
+2026-02-16 16:43:29,407 - __main__ - INFO - ============================================================
+2026-02-16 16:43:29,408 - __main__ - INFO - Document Auto-Renaming System v2.0.0
+2026-02-16 16:43:29,408 - __main__ - INFO - ============================================================
+2026-02-16 16:43:29,408 - __main__ - INFO - Input directory: E:\rename_scans\input
+2026-02-16 16:43:29,409 - __main__ - INFO - Output directory: E:\rename_scans\output
+2026-02-16 16:43:29,409 - __main__ - INFO - Review directory: E:\rename_scans\needs_review
+2026-02-16 16:43:29,409 - __main__ - INFO - Dry run mode: False
+2026-02-16 16:43:29,409 - __main__ - INFO - ============================================================
+2026-02-16 16:43:29,410 - __main__ - INFO - Found 1 files to process
+2026-02-16 16:43:29,411 - __main__ - INFO - Processing: 2025_12_22_Document_Matches.pdf
+2026-02-16 16:43:29,974 - __main__ - INFO - PDF 2025_12_22_Document_Matches.pdf: Direct text extraction successful
+2026-02-16 16:43:29,984 - __main__ - ERROR - Error processing 2025_12_22_Document_Matches.pdf: '>' not supported between instances of 'str' and 'float'
+Traceback (most recent call last):
+  File "E:\rename_scans\main.py", line 725, in process_all
+    result = self.process_file(file_path)
+  File "E:\rename_scans\main.py", line 677, in process_file
+    parsed_doc = DocumentParser.parse(raw_text)
+  File "E:\rename_scans\main.py", line 551, in parse
+    confidence, reason = DocumentParser._calculate_confidence(
+  File "E:\rename_scans\main.py", line 582, in _calculate_confidence
+    confidence = max(confidence, title_conf)
+TypeError: '>' not supported between instances of 'str' and 'float'
+2026-02-16 16:43:29,984 - __main__ - INFO - ============================================================
+2026-02-16 16:43:29,985 - __main__ - INFO - Processing complete!
+2026-02-16 16:43:29,985 - __main__ - INFO - Total files processed: 0
+2026-02-16 16:43:29,985 - __main__ - INFO -   Renamed: 0
+2026-02-16 16:43:29,985 - __main__ - INFO -   Needs review: 0
+2026-02-16 16:43:29,985 - __main__ - INFO - ============================================================
+2026-02-16 16:45:12,400 - __main__ - INFO - ============================================================
+2026-02-16 16:45:12,400 - __main__ - INFO - Document Auto-Renaming System v2.0.0
+2026-02-16 16:45:12,400 - __main__ - INFO - ============================================================
+2026-02-16 16:45:12,400 - __main__ - INFO - Input directory: E:\rename_scans\input
+2026-02-16 16:45:12,400 - __main__ - INFO - Output directory: E:\rename_scans\output
+2026-02-16 16:45:12,400 - __main__ - INFO - Review directory: E:\rename_scans\needs_review
+2026-02-16 16:45:12,400 - __main__ - INFO - Dry run mode: False
+2026-02-16 16:45:12,401 - __main__ - INFO - ============================================================
+2026-02-16 16:45:12,401 - __main__ - INFO - Found 1 files to process
+2026-02-16 16:45:12,401 - __main__ - INFO - Processing: 2025_12_22_Document_Matches.pdf
+2026-02-16 16:45:12,872 - __main__ - INFO - PDF 2025_12_22_Document_Matches.pdf: Direct text extraction successful
+2026-02-16 16:45:12,881 - __main__ - ERROR - Error processing 2025_12_22_Document_Matches.pdf: '>' not supported between instances of 'str' and 'float'
+Traceback (most recent call last):
+  File "E:\rename_scans\main.py", line 725, in process_all
+    result = self.process_file(file_path)
+  File "E:\rename_scans\main.py", line 677, in process_file
+    parsed_doc = DocumentParser.parse(raw_text)
+  File "E:\rename_scans\main.py", line 551, in parse
+    confidence, reason = DocumentParser._calculate_confidence(
+  File "E:\rename_scans\main.py", line 582, in _calculate_confidence
+    confidence = max(confidence, title_conf)
+TypeError: '>' not supported between instances of 'str' and 'float'
+2026-02-16 16:45:12,882 - __main__ - INFO - ============================================================
+2026-02-16 16:45:12,882 - __main__ - INFO - Processing complete!
+2026-02-16 16:45:12,882 - __main__ - INFO - Total files processed: 0
+2026-02-16 16:45:12,882 - __main__ - INFO -   Renamed: 0
+2026-02-16 16:45:12,882 - __main__ - INFO -   Needs review: 0
+2026-02-16 16:45:12,883 - __main__ - INFO - ============================================================
+2026-02-16 16:46:45,815 - __main__ - INFO - ============================================================
+2026-02-16 16:46:45,815 - __main__ - INFO - Document Auto-Renaming System v2.0.0
+2026-02-16 16:46:45,815 - __main__ - INFO - ============================================================
+2026-02-16 16:46:45,816 - __main__ - INFO - Input directory: E:\rename_scans\input
+2026-02-16 16:46:45,816 - __main__ - INFO - Output directory: E:\rename_scans\output
+2026-02-16 16:46:45,816 - __main__ - INFO - Review directory: E:\rename_scans\needs_review
+2026-02-16 16:46:45,816 - __main__ - INFO - Dry run mode: False
+2026-02-16 16:46:45,816 - __main__ - INFO - ============================================================
+2026-02-16 16:46:45,817 - __main__ - INFO - Found 1 files to process
+2026-02-16 16:46:45,817 - __main__ - INFO - Processing: 2025_12_22_Document_Matches.pdf
+2026-02-16 16:46:46,237 - __main__ - INFO - PDF 2025_12_22_Document_Matches.pdf: Direct text extraction successful
+2026-02-16 16:46:46,245 - __main__ - ERROR - Error processing 2025_12_22_Document_Matches.pdf: '>' not supported between instances of 'str' and 'float'
+Traceback (most recent call last):
+  File "E:\rename_scans\main.py", line 725, in process_all
+    result = self.process_file(file_path)
+  File "E:\rename_scans\main.py", line 677, in process_file
+    parsed_doc = DocumentParser.parse(raw_text)
+  File "E:\rename_scans\main.py", line 551, in parse
+    confidence, reason = DocumentParser._calculate_confidence(
+  File "E:\rename_scans\main.py", line 582, in _calculate_confidence
+    confidence = max(confidence, title_conf)
+TypeError: '>' not supported between instances of 'str' and 'float'
+2026-02-16 16:46:46,246 - __main__ - INFO - ============================================================
+2026-02-16 16:46:46,246 - __main__ - INFO - Processing complete!
+2026-02-16 16:46:46,246 - __main__ - INFO - Total files processed: 0
+2026-02-16 16:46:46,246 - __main__ - INFO -   Renamed: 0
+2026-02-16 16:46:46,248 - __main__ - INFO -   Needs review: 0
+2026-02-16 16:46:46,248 - __main__ - INFO - ============================================================
+2026-02-16 16:49:56,867 - __main__ - INFO - ============================================================
+2026-02-16 16:49:56,867 - __main__ - INFO - Document Auto-Renaming System v2.0.0
+2026-02-16 16:49:56,868 - __main__ - INFO - ============================================================
+2026-02-16 16:49:56,868 - __main__ - INFO - Input directory: E:\rename_scans\input
+2026-02-16 16:49:56,868 - __main__ - INFO - Output directory: E:\rename_scans\output
+2026-02-16 16:49:56,868 - __main__ - INFO - Review directory: E:\rename_scans\needs_review
+2026-02-16 16:49:56,868 - __main__ - INFO - Dry run mode: False
+2026-02-16 16:49:56,868 - __main__ - INFO - ============================================================
+2026-02-16 16:49:56,869 - __main__ - INFO - Found 1 files to process
+2026-02-16 16:49:56,869 - __main__ - INFO - Processing: 2025_12_22_Document_Matches.pdf
+2026-02-16 16:49:57,294 - __main__ - INFO - PDF 2025_12_22_Document_Matches.pdf: Direct text extraction successful
+2026-02-16 16:49:57,302 - __main__ - ERROR - Error processing 2025_12_22_Document_Matches.pdf: '>' not supported between instances of 'str' and 'float'
+Traceback (most recent call last):
+  File "E:\rename_scans\main.py", line 725, in process_all
+    result = self.process_file(file_path)
+  File "E:\rename_scans\main.py", line 677, in process_file
+    parsed_doc = DocumentParser.parse(raw_text)
+  File "E:\rename_scans\main.py", line 551, in parse
+    confidence, reason = DocumentParser._calculate_confidence(
+  File "E:\rename_scans\main.py", line 582, in _calculate_confidence
+    confidence = max(confidence, title_conf)
+TypeError: '>' not supported between instances of 'str' and 'float'
+2026-02-16 16:49:57,304 - __main__ - INFO - ============================================================
+2026-02-16 16:49:57,304 - __main__ - INFO - Processing complete!
+2026-02-16 16:49:57,304 - __main__ - INFO - Total files processed: 0
+2026-02-16 16:49:57,304 - __main__ - INFO -   Renamed: 0
+2026-02-16 16:49:57,304 - __main__ - INFO -   Needs review: 0
+2026-02-16 16:49:57,304 - __main__ - INFO - ============================================================
+2026-02-16 16:51:22,730 - __main__ - INFO - ============================================================
+2026-02-16 16:51:22,731 - __main__ - INFO - Document Auto-Renaming System v2.0.0
+2026-02-16 16:51:22,731 - __main__ - INFO - ============================================================
+2026-02-16 16:51:22,731 - __main__ - INFO - Input directory: E:\rename_scans\input
+2026-02-16 16:51:22,731 - __main__ - INFO - Output directory: E:\rename_scans\output
+2026-02-16 16:51:22,731 - __main__ - INFO - Review directory: E:\rename_scans\needs_review
+2026-02-16 16:51:22,731 - __main__ - INFO - Dry run mode: False
+2026-02-16 16:51:22,731 - __main__ - INFO - ============================================================
+2026-02-16 16:51:22,738 - __main__ - INFO - Found 1 files to process
+2026-02-16 16:51:22,739 - __main__ - INFO - Processing: 2025_12_22_Document_Matches.pdf
+2026-02-16 16:51:23,192 - __main__ - INFO - PDF 2025_12_22_Document_Matches.pdf: Direct text extraction successful
+2026-02-16 16:51:23,203 - __main__ - ERROR - Error processing 2025_12_22_Document_Matches.pdf: '>' not supported between instances of 'str' and 'float'
+Traceback (most recent call last):
+  File "E:\rename_scans\main.py", line 725, in process_all
+    result = self.process_file(file_path)
+  File "E:\rename_scans\main.py", line 677, in process_file
+    parsed_doc = DocumentParser.parse(raw_text)
+  File "E:\rename_scans\main.py", line 551, in parse
+    confidence, reason = DocumentParser._calculate_confidence(
+  File "E:\rename_scans\main.py", line 582, in _calculate_confidence
+    confidence = max(confidence, title_conf)
+TypeError: '>' not supported between instances of 'str' and 'float'
+2026-02-16 16:51:23,204 - __main__ - INFO - ============================================================
+2026-02-16 16:51:23,204 - __main__ - INFO - Processing complete!
+2026-02-16 16:51:23,204 - __main__ - INFO - Total files processed: 0
+2026-02-16 16:51:23,204 - __main__ - INFO -   Renamed: 0
+2026-02-16 16:51:23,204 - __main__ - INFO -   Needs review: 0
+2026-02-16 16:51:23,205 - __main__ - INFO - ============================================================

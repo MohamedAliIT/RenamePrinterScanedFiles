@@ -1,0 +1,2 @@
+old_name,new_name,doc_type,title,person_name,date,confidence,reason,decision
+test.pdf,2025_12_22_Document_Matches.pdf,Document,All_Licensed_Financial_Entities,Matches,2025-12-22,0.75,type=Document:0.20; title=0.40; date=1; name=1,rename

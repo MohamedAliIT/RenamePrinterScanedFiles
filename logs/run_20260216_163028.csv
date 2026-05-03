@@ -1,0 +1,2 @@
+old_name,new_name,doc_type,title,person_name,date,confidence,reason,decision
+test.pdf,2026_01_08_KYC_Mohamed_Date_of_Birth.pdf,KYC,KYC_Form_for_Individuals_داﺮﻓﻸﻟ_ﻚﻠﻴﻤﻋ,Mohamed Date of Birth,2026-01-08,0.90,type=KYC:0.70; title=0.90; date=1; name=1,rename
