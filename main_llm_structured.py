@@ -283,7 +283,7 @@ def call_llm(text: str) -> Optional[dict]:
     """
 
     prompt = f"""
-You are a professional legal document naming intelligence engine.
+You are a professional document naming intelligence engine.
 
 Analyze the document and extract structured metadata
 to generate a clear, professional filename.
